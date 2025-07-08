@@ -21,7 +21,7 @@ export const portfolioData = {
       desc: "Fan-to-creator chat app with payment integration",
       stack: ["React", "Node.js", "MongoDB", "Tailwind"],
       links: {
-        live: "https://subloop-frontend.onrender.com/",
+        live: "https://subloop.vercel.app",
         github: "https://github.com/saurav981/Subloop",
         demo: "https://youtu.be/9SHkXQzMqik",
       },
