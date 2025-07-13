@@ -88,7 +88,7 @@ export const portfolioData = {
     {
       company: "Spiderweb Technologies",
       role: "Frontend Developer Intern",
-      duration: "Mar 2025 - Apr 2025",
+      duration: "Mar - Apr 2025",
       color: "bg-gradient-to-r from-purple-500 to-blue-500",
       points: [
         "Developed a DocuSign-like feature from scratch in 45 days, enhancing document signing capabilities for users",
@@ -98,7 +98,7 @@ export const portfolioData = {
     },
     {
       company: "PodQuake",
-      role: "Freelance Podcast Audio Editor",
+      role: "Freelance Podcast Editor",
       duration: "2020 - 2023",
       color: "bg-green-500",
       points: [

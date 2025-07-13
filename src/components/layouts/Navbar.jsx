@@ -25,7 +25,7 @@ export default function Navbar() {
           <ThemeToggle />
         </div>
         <a
-          href="/assets/resume.pdf"
+          href="/assets/Saurav Frontend Resume.pdf"
           target="_blank"
           rel="noopener"
           className="flex-shrink-0"
