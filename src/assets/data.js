@@ -1,22 +1,10 @@
 export const portfolioData = {
   about:
-    "Frontend developer passionate about building full-stack web apps with React and the MERN stack. I've shipped projects ranging from real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
+    "Fullstack developer passionate about building web apps with the MERN stack. I've shipped projects ranging from social media automation tool, bulk email sender, real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
 
   projects: [
     {
       id: 1,
-      title: "EV Charger Directory",
-      desc: "EV charger management directory with real-time availability tracking",
-      stack: ["Vue.js", "Tailwind", "Node.js", "MongoDB"],
-      links: {
-        live: "https://evoltsoft-ui.onrender.com/",
-        github:
-          "https://github.com/saurav981/Evoltsoft-Technologies-assignment",
-      },
-      image: "evoltsoft.webp",
-    },
-    {
-      id: 2,
       title: "Subloop",
       desc: "Fan-to-creator chat app with payment integration",
       stack: ["React", "Node.js", "MongoDB", "Tailwind"],
@@ -27,6 +15,19 @@ export const portfolioData = {
       },
       image: "subloop.webp",
     },
+    {
+      id: 2,
+      title: "EV Charger Directory",
+      desc: "EV charger management directory with real-time availability tracking",
+      stack: ["Vue.js", "Tailwind", "Node.js", "MongoDB"],
+      links: {
+        live: "https://evoltsoft-ui.onrender.com/",
+        github:
+          "https://github.com/saurav981/Evoltsoft-Technologies-assignment",
+      },
+      image: "evoltsoft.webp",
+    },
+
     {
       id: 3,
       title: "Scholarship Finder",
@@ -77,35 +78,38 @@ export const portfolioData = {
     "Tailwind",
     "Zustand",
     "Node.js",
+    "Express",
     "MongoDB",
+    "PostgreSQL",
     "JavaScript",
+    "TypeScript",
     "Git",
+    "Redis",
+    "Docker",
+    "AWS",
+    "BullMQ",
     "SEO",
     "WordPress",
   ],
 
   experience: [
     {
-      company: "Spiderweb Technologies",
+      company: "Tvara",
       role: "Frontend Developer Intern",
       duration: "Mar - Apr 2025",
+      color: "bg-gradient-to-r from-pink-500 to-yellow-500",
+    },
+    {
+      company: "Spiderweb Technologies",
+      role: "Software Developer Intern",
+      duration: "Mar - Apr 2025",
       color: "bg-gradient-to-r from-purple-500 to-blue-500",
-      points: [
-        "Developed a DocuSign-like feature from scratch in 45 days, enhancing document signing capabilities for users",
-        "Collaborated with team members to resolve bugs using JavaScript and TypeScript, improving application stability and user experience",
-        "Utilized the MERN stack and AWS to build scalable web applications, enhancing performance and deployment efficiency",
-      ],
     },
     {
       company: "PodQuake",
       role: "Freelance Podcast Editor",
-      duration: "2020 - 2023",
+      duration: "2020 - Present",
       color: "bg-green-500",
-      points: [
-        "Automated audio workflows reducing post-production time by 50% using Reaper and Descript",
-        "Edited over 500 episodes for various clients across 3-4 years",
-        "Acquired 3-5 high-ticket clients via organic marketing & referrals",
-      ],
     },
   ],
 

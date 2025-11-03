@@ -21,11 +21,13 @@ export default function Navbar() {
             <span className="sm:hidden">{link.short}</span>
           </a>
         ))}
+
         <div className="flex-shrink-0">
           <ThemeToggle />
         </div>
+
         <a
-          href="/assets/Saurav Frontend Resume.pdf"
+          href="/assets/Saurav Fullstack Resume.pdf"
           target="_blank"
           rel="noopener"
           className="flex-shrink-0"

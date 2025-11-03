@@ -12,8 +12,8 @@ export default function Hero() {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-5">
             {`Hi, I'm Saurav`} <span className="inline-block">👋</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-            Frontend Developer with Fullstack Experience
+          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            Fullstack Developer with Backend focus
           </p>
         </div>
         <div className="flex-shrink-0">

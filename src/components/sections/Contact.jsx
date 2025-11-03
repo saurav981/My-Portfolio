@@ -1,5 +1,5 @@
-import { portfolioData } from "../../assets/data";
 import Icon from "../ui/Icon";
+import { portfolioData } from "../../assets/data";
 
 export default function Contact() {
   const { socialLinks } = portfolioData;
@@ -14,7 +14,7 @@ export default function Contact() {
           Want to discuss a project or just say hi? Reach out through any of
           these channels:
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-8 justify-center">
           {socialLinks.map((link) => (
             <a
               key={link.name}

@@ -8,7 +8,7 @@ export default function ThemeToggle() {
     <button
       onClick={() => setIsDark(!isDark)}
       aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
-      className="p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+      className="p-2 rounded-full"
     >
       {isDark ? (
         <Icon name="sun" className="w-5 h-5 text-yellow-400" />
