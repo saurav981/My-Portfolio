@@ -1,6 +1,8 @@
 export const portfolioData = {
+  role: "Frontend Developer with Fullstack Experience",
+
   about:
-    "Fullstack developer passionate about building web apps with the MERN stack. I've shipped projects ranging from social media automation tool, bulk email sender, real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
+    "Frontend developer passionate about building web apps with the MERN stack. I've shipped projects ranging from social media automation tool, bulk email sender, real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
 
   projects: [
     {
@@ -96,7 +98,7 @@ export const portfolioData = {
     {
       company: "Tvara",
       role: "Frontend Developer Intern",
-      duration: "Mar - Apr 2025",
+      duration: "Aug - Sep 2025",
       color: "bg-gradient-to-r from-pink-500 to-yellow-500",
     },
     {

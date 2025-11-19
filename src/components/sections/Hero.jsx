@@ -1,9 +1,12 @@
 import sauravGhibliDP from "../../../public/assets/sauravGhibliDP.webp";
+import { portfolioData } from "../../assets/data";
 import { About } from "./About";
 import Experience from "./Experience";
 import Skills from "./Skills";
 
 export default function Hero() {
+  const { role } = portfolioData;
+
   return (
     <section className="py-20 max-w-xl mx-auto">
       {/* Hero section */}
@@ -13,7 +16,7 @@ export default function Hero() {
             {`Hi, I'm Saurav`} <span className="inline-block">👋</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-            Fullstack Developer with Backend focus
+            {role}
           </p>
         </div>
         <div className="flex-shrink-0">
