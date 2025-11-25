@@ -1,8 +1,8 @@
 export const portfolioData = {
-  role: "Frontend Developer with Fullstack Experience",
+  role: "Backend Developer",
 
   about:
-    "Frontend developer passionate about building web apps with the MERN stack. I've shipped projects ranging from social media automation tool, bulk email sender, real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
+    "Backend developer passionate about building web apps with the MERN stack. I've shipped projects ranging from social media automation tool, bulk email sender, real-time chat platforms to high-traffic websites, always focusing on clean code and great user experiences",
 
   projects: [
     {
