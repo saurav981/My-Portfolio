@@ -27,7 +27,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="/assets/Saurav Backend Resume.pdf"
+          href="/assets/Saurav Fullstack Resume.pdf"
           target="_blank"
           rel="noopener"
           className="flex-shrink-0"
